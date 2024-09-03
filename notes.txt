@@ -1,0 +1,4 @@
+remember tailwind is a framework so be sure to run it every time before coding so all the features work properly otherwise it wont run 
+any commands that have already been used.
+
+npx tailwindcss -i ./input.css -o ./output.css --watch

@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: MyFont;
+    src: url(/font/Fair\ Prosper.woff);
+  }
+.myfont{
+    font-family: MyFont;
+}
+
+
+.custom-arrow{
+  background-color: rgba(244, 0, 0) !important;
+  opacity: 1;
+  border-radius: 0%;
+  width: 40px; 
+  height: 40px; 
+  line-height: 40px; 
+  text-align: center; 
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer; 
+}
+
+.arrow-top{
+  /* position: absolute; */
+  top: 45%;
+  left: -1rem;
+}
+.arrow-bottom{
+  /* position: absolute; */
+  transform:rotate(-90deg);
+  top: 55%;
+  left: -1rem;
+}
+
+@media (max-width:768px) {
+  .arrow-bottom, .arrow-top{
+    left: 0px;
+  }
+  
+}
+
+.custom-arrow-prev{
+background-color: #fff !important;
+transform: rotate(180deg);
+position: absolute;
+top: 1rem;
+right: 4.5rem;
+}
+
+.custom-arrow-next{
+  background-color: #fff !important;
+  top: 2rem;
+  right: 2rem;
+}
+
+.splide__pagination__page {
+  background-color: rgb(4, 167, 4);
+
+}
+
+.splide__pagination__page.is-active {
+  background-color: red; 
+}
